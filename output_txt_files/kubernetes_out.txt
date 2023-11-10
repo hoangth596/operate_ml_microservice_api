@@ -1,1 +1,16 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Below is output after executing run_kebernetes.sh
+
+NAME            READY   STATUS    RESTARTS      AGE
+micro-project   1/1     Running   1 (45m ago)   52m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+--------------------------------------------------------
+Below is output when pod is running and prediction is made from different terminal by executing make_prediction.sh
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
